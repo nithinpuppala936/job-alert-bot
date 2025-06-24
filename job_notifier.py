@@ -16,7 +16,8 @@ AUTH_TOKEN = os.getenv("TWILIO_TOKEN")
 FROM_WHATSAPP = os.getenv("WHATSAPP_FROM")
 TO_WHATSAPP = os.getenv("WHATSAPP_TO")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")   # Your personal WhatsApp number (must be verified in Twilio)
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")  
+# Your personal WhatsApp number (must be verified in Twilio)
 
 # === TARGET ROLES ===
 TARGET_ROLES = [
